@@ -1,0 +1,63 @@
+.bio {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 1rem;
+
+    .left {
+        h2 {
+            color: white;
+            font-size: 34px;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            color: white;
+            font-weight: 500;
+        }
+
+        ul {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            justify-content: flex-start;
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                font-size: 20px;
+                margin-right: 1rem;
+                margin-top: 1rem;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: goldenrod;
+                    }
+                }
+
+
+
+            }
+        }
+    }
+
+    img {
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+        align-items: center;
+        flex-direction: column;
+
+        .left {
+            margin-bottom: 1rem;
+        }
+    }
+}

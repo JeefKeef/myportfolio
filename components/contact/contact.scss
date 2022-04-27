@@ -1,0 +1,59 @@
+.contactForm {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+
+    input {
+        background-color: none;
+        border-radius: 15px;
+        border: 2px solid white;
+        color: white;
+        font-size: 14px;
+        padding: .5rem 1rem;
+        width: 80%;
+
+        &:focus {
+            border: 2px solid goldenrod;
+            outline: none !important;
+        }
+    }
+
+    textarea {
+        border: 2px solid white;
+        border-radius: 15px;
+        color: white;
+        font-size: 14px;
+        height: 250px;
+        padding: .5rem 1rem;
+        resize: none;
+        width: 80%;
+
+        &:focus {
+            border: 2px solid goldenrod;
+            outline: none !important;
+        }
+
+    }
+
+    .submitButton {
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        font-size: 14px;
+        font-weight: bold;
+        justify-content: center;
+        padding: .5rem 1rem;
+        transition: all .5s ease;
+        width: 100px;
+
+        &:hover {
+            color: goldenrod;
+        }
+    }
+
+}

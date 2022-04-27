@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+    .homeWrapper {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+    }
+    
+}

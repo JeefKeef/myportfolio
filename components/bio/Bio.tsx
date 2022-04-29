@@ -14,12 +14,17 @@ const Bio: React.FC = () => {
             <a
               href="https://www.linkedin.com/in/jeffreyson-nguyen/"
               target="_blank"
+              rel="noreferrer"
             >
               <SiLinkedin />
             </a>
           </li>
           <li>
-            <a href="https://github.com/JeefKeef" target="_blank">
+            <a
+              href="https://github.com/JeefKeef"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiGithub />
             </a>
           </li>
@@ -27,6 +32,7 @@ const Bio: React.FC = () => {
             <a
               href="mailto:nguyen.jeffreyson@gmail.com?subject=Mail from portfolio website"
               target="_blank"
+              rel="noreferrer"
             >
               <IoMdMail />
             </a>
@@ -34,7 +40,12 @@ const Bio: React.FC = () => {
         </ul>
       </div>
 
-      <Image width="100" height="100"src="/images/jn.jfif" alt="Jeffreyson.jfif" />
+      <Image
+        width="100"
+        height="100"
+        src="/images/jn.jfif"
+        alt="Jeffreyson.jfif"
+      />
     </section>
   );
 };

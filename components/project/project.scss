@@ -14,8 +14,11 @@
         img {
             border-radius: 10px;
         }
-        
+
         .overlay {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
             background-color: black;
             border-radius: 10px;
             height: 100%;
@@ -25,6 +28,20 @@
             top: 0;
             transition: all .3s ease;
             width: 100%;
+
+            .overlayViewMore {
+                align-items: center;
+                border-radius: 50%;
+                color: white;
+                display: flex;
+                height: 40px;
+                justify-content: center;
+                width: 40px;
+
+                &:hover {
+                    background-color: gray;
+                }
+            }
         }
 
         &:hover {

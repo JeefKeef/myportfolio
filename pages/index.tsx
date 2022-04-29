@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               aliquam eius.
             </p>
             <Link href="/projects">
-              <a>My projects {">"}</a>
+              <a className="viewProjects">My projects {">"}</a>
             </Link>
           </Section>
           <Section>

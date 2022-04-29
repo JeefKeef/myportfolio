@@ -1,0 +1,26 @@
+.projectTitle {
+    align-items: center;
+    color: white;
+    display: flex;
+    margin-bottom: 1rem;
+
+    a {
+        color: crimson;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+    }
+
+    span {
+        display: flex;
+        margin: 0 5px;
+    }
+
+    h2 {
+        font-weight: 300;
+    }
+}

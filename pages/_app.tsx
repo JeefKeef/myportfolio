@@ -7,7 +7,10 @@ import "../components/bio/bio.scss";
 import "../components/section/section.scss";
 import "../components/contact/contact.scss";
 import "../styles/projects.scss";
+import "../styles/projectDetails.scss";
 import "../components/project/project.scss";
+import "../components/projectTitle/projectTitle.scss";
+import "../components/projectImage/projectImage.scss";
 
 import type { AppProps } from "next/app";
 

@@ -1,0 +1,62 @@
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+
+    .projectDetailsWrapper {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                align-items: center;
+                display: flex;
+                justify-content: flex-start;
+
+                .externalLinkIcon {
+                    color: goldenrod;
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+
+                h4 {
+                    background-color: rgba(220, 20, 60, .3);
+                    border-radius: 5px;
+                    color: crimson;
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin: 5px 10px;
+                    max-width: fit-content;
+                    padding: 1px 5px;
+                }
+
+                a {
+                    color: goldenrod;
+                    cursor: pointer;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                ul {
+                    display: flex;
+                    padding: 0;
+
+                    li {
+                        border-radius: 5px;
+                        border: 1px solid goldenrod;
+                        color: goldenrod;
+                        margin-right: 1rem;
+                        padding: 1px 5px;
+                    }
+                }
+            }
+        }
+    }
+}

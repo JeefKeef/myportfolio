@@ -1,5 +1,8 @@
 import Image from "next/image";
+import NextLink from "next/link";
 import React from "react";
+import { AiFillGithub } from "react-icons/ai";
+import { HiOutlineEye } from "react-icons/hi";
 
 const Project: React.FC = () => {
   return (
@@ -11,7 +14,32 @@ const Project: React.FC = () => {
           height="300"
           alt="Jeffreyson's projects"
         />
-        <div className="overlay"></div>
+        <div className="overlay">
+          <div className="overlayViewMore">
+            <NextLink href={"/sample"}>
+              <HiOutlineEye
+                style={{
+                  height: 30,
+                  width: 30,
+                  background: "transparent",
+                  margin: 0,
+                  padding: 0,
+                }}
+              />
+            </NextLink>
+          </div>
+          <div className="overlayViewMore">
+            <AiFillGithub
+              style={{
+                height: 30,
+                width: 30,
+                background: "transparent",
+                margin: 0,
+                padding: 0,
+              }}
+            />
+          </div>
+        </div>
       </div>
       <div className="projectBottom">
         <h3 className="title">Portfolio Name</h3>

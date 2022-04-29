@@ -36,6 +36,11 @@ const sample: NextPage = () => {
                   <li>react</li>
                 </ul>
               </li>
+              <li>
+                <h4>Source</h4>
+                <a href="https://www.google.com">www.google.com</a>
+                <FaExternalLinkAlt className="externalLinkIcon" />
+              </li>
             </ul>
             <ProjectImage
               src="https://www.craftz.dog/images/works/inkdrop_01.png"

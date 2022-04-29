@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
               </NextLink>
             </li>
             <li className="link">
-              <NextLink href={"/contact"}>
+              <NextLink href={"/#contact"}>
                 <a>Contact</a>
               </NextLink>
             </li>

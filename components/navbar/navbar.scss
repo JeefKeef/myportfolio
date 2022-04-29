@@ -22,6 +22,7 @@
                 color: white;
                 display: flex;
                 font-size: 20px;
+                font-weight: 600;
                 justify-content: center;
                 letter-spacing: -1px;
                 text-decoration: none;
@@ -29,6 +30,7 @@
 
                 .logoIcon {
                     margin-right: 5px;
+                    transition: all .5s ease;
                 }
 
                 &:hover {

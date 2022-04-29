@@ -53,7 +53,13 @@ const Home: NextPage = () => {
             </Link>
           </Section>
           <Section>
-            <h3>Skills</h3>
+            <h3>Technologies</h3>
+            <h4>Frontend</h4>
+            <h4>Backend</h4>
+            <h4>Testing</h4>
+            <h4>Deployment</h4>
+            <h4>Blockchain</h4>
+
             <ul className="items">
               <li className="item">
                 <SiJavascript />
@@ -116,7 +122,9 @@ const Home: NextPage = () => {
               </li>
             </ul>
           </Section>
-          <Contact />
+          <div id="contact">
+            <Contact />
+          </div>
         </Container>
       </div>
       <Footer />
